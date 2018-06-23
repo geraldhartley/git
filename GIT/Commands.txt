@@ -1,0 +1,11 @@
+# ###########################
+# Add a new remote to GitHub
+# ###########################
+git remote add origin https://github.com/geridantech/GIT.git
+# Set a new remote
+git remote -v
+# Verify new remote
+origin  https://github.com/geridantech/GIT.git (fetch)
+origin  https://github.com/geridantech/GIT.git (push)
+# Rename a Remote Branch
+git remote rename <old> <new>
