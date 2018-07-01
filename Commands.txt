@@ -6,6 +6,9 @@ git remote add origin https://github.com/geridantech/GIT.git
 # Set a new remote
 git remote -v
 
+# Reset latest commit
+git reset HEAD~
+
 # Verify new remote
 origin  https://github.com/geridantech/GIT.git (fetch)
 origin  https://github.com/geridantech/GIT.git (push)
