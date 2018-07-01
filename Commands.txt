@@ -15,3 +15,9 @@ git remote rename <old> <new>
 
 # Create new branch on local, switch to branch
 $ git checkout -b [name_of_your_new_branch]
+
+# Check current file status
+$ git status
+
+# Add Username / Email to git config settings
+$git config --global user.(name/email)
