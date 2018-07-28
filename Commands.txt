@@ -24,3 +24,12 @@ $ git status
 
 # Add Username / Email to git config settings
 $git config --global user.(name/email)
+
+# Remove large files from history
+https://help.github.com/articles/removing-files-from-a-repository-s-history/
+
+# Specify remote, specify remote name [origin] and link to [repository]
+git set -u origin repository
+
+# Remove remote named [origin]
+git remote remove origin
